@@ -3,33 +3,80 @@
   padding: 0;
 }
 
-#top-title0,
-#top-title1 {
+#body-div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#main-div {
+  margin-bottom: 80px;
+}
+
+#footer {
+  max-width: 98%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  margin-top: 50px;
+  position: fixed;
+  bottom: 0;
+}
+
+#top-title,
+#top-title-add,
+#contact-title {
   font-size: 2em;
   text-align: center;
   padding-top: 10px;
   padding-bottom: 10px;
 }
 
-.book-title {
+#navbar-title {
+  display: none;
+}
+
+#book-add {
+  max-width: 700px;
+}
+
+#book-list {
+  background-color: rgba(168, 167, 164, 0.671);
+}
+
+#contact-title-inner {
+  font-size: 1.5rem;
+}
+
+#add-container {
+  display: none;
+  padding-top: 10%;
+}
+
+#contact-container {
+  display: none;
+  padding-top: 10%;
+}
+
+.footer-div {
+  background-color: rgb(255, 255, 255);
+}
+
+.inner-text {
   font-size: 1rem;
 }
 
+.book-title,
 .book-author {
   font-size: 1rem;
 }
 
 .remove {
-  padding-left: 1px;
-  padding-right: 1px;
+  padding: 0 1px;
   margin: auto;
   border-color: black;
   border-width: 2px;
   border-radius: 5px;
-}
-
-#book-list {
-  background-color: rgba(168, 167, 164, 0.671);
 }
 
 .book:nth-child(odd) {
