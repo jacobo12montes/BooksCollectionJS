@@ -1,19 +1,15 @@
-/* @media (min-width: 576px) {
-
-} */
-
 @media (min-width: 768px) {
   .remove {
-    padding-left: 5px;
-    padding-right: 5px;
+    padding: 0 5px;
+  }
+
+  #navbar-title {
+    display: block;
   }
 }
 
 @media (min-width: 992px) {
-  .book-title {
-    font-size: 1.3rem;
-  }
-
+  .book-title,
   .book-author {
     font-size: 1.3rem;
   }
@@ -21,18 +17,20 @@
   .remove {
     font-size: 18px;
   }
+
+  .inner-text {
+    font-size: 1.5rem;
+  }
 }
 
 @media (min-width: 1200px) {
   .remove {
-    padding-left: 7px;
-    padding-right: 7px;
+    padding: 0 7px;
   }
 }
 
 @media (min-width: 1400px) {
   .remove {
-    padding-left: 9px;
-    padding-right: 9px;
+    padding: 0 9px;
   }
 }
