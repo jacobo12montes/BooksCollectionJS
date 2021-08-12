@@ -14,7 +14,7 @@ class Book {
   display() {
     this.bookArray.forEach(([key, value]) => {
       const array = value.split(',');
-      this.html.push(`<div class='book'><div class='text-container'><p class='book-title '>${array[0]} by</p><p class='book-author'>&nbsp;${array[1]}</p></div><button class='remove offset-md-1' onclick="book.removeBooks('${key}')">Remove</button></div>`);
+      this.html.push(`<div class='book d-flex col-12 p-2'><div class='d-flex col-9 col-md-10 text-container'><p class='book-title m-0'>${array[0]} by</p><p class='book-author m-0'>&nbsp;${array[1]}</p></div><button class='remove offset-md-1' onclick="book.removeBooks('${key}')">Remove</button></div>`);
     });
     document.getElementById('book-list').innerHTML = this.html.join(' ');
   }

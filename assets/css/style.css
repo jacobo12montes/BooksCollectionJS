@@ -1,3 +1,41 @@
-body {
-  background-color: transparent;
+* {
+  margin: 0;
+  padding: 0;
+}
+
+#top-title0,
+#top-title1 {
+  font-size: 2em;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.book-title {
+  font-size: 1rem;
+}
+
+.book-author {
+  font-size: 1rem;
+}
+
+.remove {
+  padding-left: 1px;
+  padding-right: 1px;
+  margin: auto;
+  border-color: black;
+  border-width: 2px;
+  border-radius: 5px;
+}
+
+#book-list {
+  background-color: rgba(168, 167, 164, 0.671);
+}
+
+.book:nth-child(odd) {
+  background-color: #5a5858bc;
+}
+
+.book:nth-child(even) {
+  background-color: rgb(255, 255, 255);
 }
