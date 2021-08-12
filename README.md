@@ -14,7 +14,7 @@ Books Collection is a website where you can organize your books and create new i
 
 ## Live Demo
 
-[Live Demo Link](https://raw.githack.com/jacobo12montes/BooksCollectionJS/nav/index.html)
+[Live Demo Link](https://raw.githack.com/jacobo12montes/BooksCollectionJS/index.html)
 
 
 ## Getting started
